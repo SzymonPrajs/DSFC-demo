@@ -7,6 +7,6 @@ python:
   - "3.4"
   - "3.5"
 # command to install dependencies
-install: "pip install -r astropy astroquery"
+install: "pip install astropy astroquery"
 # command to run tests
 script: pytest
